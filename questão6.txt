@@ -1,0 +1,5 @@
+A saida será 100.
+
+Por que numeros1[0] foi alterado: Arrays são tipos de referência, então numeros2 não é uma cópia independente, mas sim outra variável apontando para o mesmo array; mudar um afeta o outro.
+
+Como evitar: Se quiser que numeros2 seja uma cópia separada, precisa criar um novo array, por exemplo usando Clone() ou Array.Copy(), assim cada um terá seus próprios valores.
