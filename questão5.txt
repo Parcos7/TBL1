@@ -1,0 +1,7 @@
+s1 == s2 → True: O operador == compara conteúdo e ambos têm "Olá".
+
+s1 == s3 → True: Mesmo sendo outra instância, o conteúdo é igual e == compara valor.
+
+ReferenceEquals(s1, s2) → True: Literais iguais são internados, então apontam para o mesmo objeto.
+
+ReferenceEquals(s1, s3) → False: new string("Olá") cria uma nova instância, diferente de s1.
