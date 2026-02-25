@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int numero1 = 10;
+        int numero2 = numero1;
+
+        numero2 = 20;
+
+        Console.WriteLine("Valor da primeira variável (numero1): ");
+        Console.WriteLine("Valor da segunda variável (numero2): ");
+
+    }
+}
