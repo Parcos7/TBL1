@@ -9,8 +9,8 @@ class Program
 
         numero2 = 20;
 
-        Console.WriteLine("Valor da primeira variável (numero1): ");
-        Console.WriteLine("Valor da segunda variável (numero2): ");
+        Console.WriteLine("Valor da primeira variável (numero1): " + numero1);
+        Console.WriteLine("Valor da segunda variável (numero2): " + numero2);
 
     }
 }
