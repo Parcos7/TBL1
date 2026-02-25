@@ -1,0 +1,3 @@
+Tipos de valor = cada variável tem sua própria cópia
+
+Tipos de referência = várias variáveis podem “apontar” para o mesmo objeto, então mudar uma afeta toda
