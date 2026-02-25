@@ -1,0 +1,6 @@
+string numStr = "99"; 
+int num = int.Parse(numStr); 
+Console.WriteLine(num);
+
+
+a saida é 99 inteiro
